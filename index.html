@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theotown Plugin Downloads</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <style>
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .container {
+            max-width: 1200px;
+        }
+
+        header {
+            text-align: center;
+            color: white;
+            margin-bottom: 40px;
+            padding: 30px 0;
+        }
+
+        header h1 {
+            font-size: 1em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        header p {
+            font-size: 1em;
+            opacity: 0.9;
+        }
+
+        .plugin-card {
+            background: white;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            height: 100%;
+        }
+
+        .plugin-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.4);
+        }
+
+        .plugin-image {
+            width: 100%;
+            height: 250px;
+            background: linear-gradient(135deg, #89f7fe 0%, #66a6ff 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .plugin-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .plugin-content {
+            padding: 25px;
+        }
+
+        .plugin-title {
+            font-size: 1.8em;
+            color: #333;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+
+        .btn-full {
+            background:#667eea;
+            border: 1px solid black;
+            color: white;
+            padding: 12px 25px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+          
+        }
+
+        .btn-full:hover {
+            transform: scale(1.05);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+            color: white;
+        }
+
+        .btn-script {
+            background: #667eea;
+            border: 1px solid black;
+            color: white;
+            padding: 12px 25px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .btn-script:hover {
+            transform: scale(1.05);
+            box-shadow: 0 5px 15px rgba(245, 87, 108, 0.4);
+            color: white;
+        }
+
+        footer {
+            text-align: center;
+            color: white;
+            margin-top: 50px;
+            padding: 20px;
+            opacity: 0.8;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><i class="bi bi-building"></i> Theotown Plugins</h1>
+            <p>Download plugin terbaik untuk game Theotown Anda</p>
+        </header>
+
+        <div class="row g-4">
+            <!-- Plugin Card: Blue House -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="plugin-card">
+                    <div class="plugin-image">
+                        <img src="iamge.png" alt="Blue House Preview">
+                    </div>
+                    <div class="plugin-content">
+                        <h2 class="plugin-title">
+                            <i class="bi bi-house-fill text-primary"></i> Blue House
+                        </h2>
+                        <div class="d-grid gap-3">
+                            <a href="#" class="btn btn-full btn-lg" onclick="alert('Download Full plugin dimulai...'); return false;">
+                                <i class="bi bi-download me-2"></i>
+                                Download Full Plugin
+                            </a>
+                            <a href="#" class="btn btn-script btn-lg" onclick="alert('Download Script plugin dimulai...'); return false;">
+                                <i class="bi bi-file-earmark-code me-2"></i>
+                                Download Script Only
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tambahkan plugin lain di sini dengan struktur yang sama -->
+        </div>
+
+        <footer>
+            <p><i class="bi bi-heart-fill text-danger"></i> © 2026 Theotown Plugin Downloads | Made with love for Theotown Community</p>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
